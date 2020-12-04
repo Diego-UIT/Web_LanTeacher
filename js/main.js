@@ -1,13 +1,6 @@
 (function($) {
   "use strict";
 
-  // =============================================
-  // LOADER
-  // =============================================
-  $(window).on('load', function() {
-    $(".loader").fadeOut(500);
-  });
-
   $(document).ready(function() {
 
     // =============================================
@@ -106,6 +99,8 @@
                 'topbar',
                 'header',
               ]
+              //elemInsertsMethod: "insertBefore",
+              //elemInsertSelector: ".wrapper"
             }
           }
 
@@ -715,6 +710,50 @@
     };
 
     // =============================================
+    // OFFER - REVOLUTION SLIDER
+    // =============================================
+    if ($("#rev-slider-offer").length) {
+      var tpj = jQuery;
+      var revapi12;
+      tpj(document).ready(function() {
+        if (tpj("#rev-slider-offer").revolution == undefined) {
+          revslider_showDoubleJqueryError("#rev-slider-offer");
+        } else {
+          revapi12 = tpj("#rev-slider-offer").show().revolution({
+            sliderType: "hero",
+            jsFileLocation: "revolution/js/",
+            dottedOverlay: "twoxtwo",
+            delay: 9000,
+            responsiveLevels: [1200, 992, 768, 480],
+            visibilityLevels: [1200, 992, 768, 480],
+            gridwidth: [1200, 992, 768, 480],
+            gridheight: [550, 550, 700, 700],
+            lazyType: "none",
+            parallax: {
+              type: "scroll",
+              origo: "enterpoint",
+              speed: 400,
+              levels: [5, 10, 15, 20, 25, 30, 35, 40, 45, 50],
+            },
+            shadow: 0,
+            spinner: "off",
+            autoHeight: "off",
+            forceFullWidth: "off",
+            disableProgressBar: "on",
+            hideSliderAtLimit: 0,
+            hideCaptionAtLimit: 0,
+            hideAllCaptionAtLilmit: 0,
+            debugMode: false,
+            fallbacks: {
+              simplifyAll: "off",
+              disableFocusListener: false,
+            }
+          });
+        }
+      });
+    };
+
+    // =============================================
     // GALLERY SLIDER - REVOLUTION SLIDER
     // =============================================
     if ($("#rev-slider-gallery").length) {
@@ -879,6 +918,7 @@
 
     $('.image-gallery').each(function() {
       $(this).magnificPopup({
+        //  delegate: '.owl-item:not(.cloned) a',
         delegate: 'a',
         type: 'image',
         mainClass: 'mfp-with-zoom',
@@ -1267,6 +1307,13 @@
 
     });
 
+    // =============================================
+    // MASONRY
+    // =============================================
+    var masonry_container = $('.masonry-grid');
+    masonry_container.masonry({
+      itemSelector: '.masonry-grid-item'
+    });
 
     // =============================================
     // BACK TO TOP
@@ -1286,3 +1333,7 @@
       }, 500);
       return false;
     });
+
+  });
+
+})(jQuery);
