@@ -1,8 +1,8 @@
 /* ===========================================
-// 01. GLOBAL
+//                 GLOBAL
 =============================================*/
 
-/* ===== 01.1 RESETS ===== */
+/* ===== RESETS ===== */
 
 * {
   margin: 0;
@@ -31,7 +31,7 @@ main {
   padding: 100px 0;
 }
 
-/* ===== 01.2 TYPOGRAPHY ===== */
+/* ===== TYPOGRAPHY ===== */
 
 h1, h2, h3, h4, h5, h6, button {
   font-weight: 600;
@@ -78,7 +78,7 @@ a:hover, a:focus, a:active {
 }
 
 /* ===========================================
-// 02. GENERAL
+//                 GENERAL
 =============================================*/
 
  .mt0 {
@@ -849,7 +849,6 @@ a:hover, a:focus, a:active {
   pointer-events: none;
   background: url("../images/icons/gridtile.png");
   opacity: 0;
-  -webkit-transition: .4s;
   transition: .4s;
 }
 
@@ -1006,7 +1005,7 @@ a:hover, a:focus, a:active {
   max-height: 200px;
 }
 
-/* ===== 02.1 FORMS ===== */
+/* =====  FORMS ===== */
 
 .form-group {
   margin-bottom: 30px;
@@ -1032,9 +1031,7 @@ label a {
   padding: 10px;
   color: #afafaf;
   outline: none;
-  -webkit-box-shadow: none;
   box-shadow: none;
-  -webkit-transition: .5s;
   transition: .5s;
   font-size: 13px;
   line-height: 25px;
@@ -1064,9 +1061,7 @@ label a {
   padding: 10px 10px;
   color: #afafaf;
   outline: none;
-  -webkit-box-shadow: none;
   box-shadow: none;
-  -webkit-transition: .5s;
   transition: .5s;
   font-size: 13px;
   font-weight: 400;
@@ -1080,7 +1075,6 @@ label a {
 .form-control.bootstrap-select button:hover, .form-control.bootstrap-select button:active, .form-control.bootstrap-select button:focus {
   outline: none !important;
   background-color: transparent !important;
-  -webkit-box-shadow: none !important;
   box-shadow: none !important;
   border-color: #e3e3e3 !important;
 }
@@ -1098,7 +1092,6 @@ label a {
 
 .form-control.bootstrap-select .dropdown-menu {
   border: 1px solid #efefef;
-  -webkit-box-shadow: 0 12px 26px 0 rgba(178, 178, 178, .13);
   box-shadow: 0 12px 26px 0 rgba(178, 178, 178, .13);
   border-radius: 2px;
   padding-bottom: 0;
@@ -1113,7 +1106,6 @@ label a {
   background: #efefef;
   color: #afafaf;
   outline: none;
-  -webkit-box-shadow: none;
   box-shadow: none;
 }
 
@@ -1413,7 +1405,7 @@ textarea {
   background: #f2f2f2;
 }
 
-/* ===== 02.3 BUTTONS ===== */
+/* ===== BUTTONS ===== */
 
 .btn {
   background: #edcb9a;
@@ -1590,7 +1582,7 @@ textarea {
 }
 
 /* ===========================================
-// 03. TOP BAR
+//                TOP BAR
 =============================================*/
 
 .topbar {
@@ -1678,10 +1670,10 @@ textarea {
 }
 
 /* ===========================================
-// 04. HEADER
+//                 HEADER
 =============================================*/
 
-/* ===== 04.1 HORIZONTAL HEADER ===== */
+/* ===== HORIZONTAL HEADER ===== */
 
 header {
   background: #fff;
@@ -1732,22 +1724,18 @@ header .brand .logo h1{
   margin-right: auto;
   clear: both;
   background: #edcb9a;
-  -webkit-transition: .4s;
   transition: .4s;
 }
 
 .toggle-menu-button.open .line:nth-child(1) {
-  -webkit-transform: translateY(9px) rotate(-135deg);
   transform: translateY(9px) rotate(-135deg);
 }
 
 .toggle-menu-button.open .line:nth-child(2) {
-  -webkit-transform: scale(0);
   transform: scale(0);
 }
 
 .toggle-menu-button.open .line:nth-child(3) {
-  -webkit-transform: translateY(-9px) rotate(-45deg);
   transform: translateY(-9px) rotate(-45deg);
 }
 
@@ -1769,7 +1757,6 @@ header.horizontal-header .main-menu .menu .menu-item a, header.horizontal-header
   font-size: 14px;
   font-weight: 600;
   text-transform: uppercase;
-  -webkit-transition: .4s;
   transition: .4s;
   letter-spacing: 1px;
 }
@@ -1872,12 +1859,10 @@ header.horizontal-header .main-menu .menu .dropdown .submenu {
     margin-top: 8px;
   }
 }
-/* ===== 04.3 MOBILE MENU ===== */
+/* ===== MOBILE MENU ===== */
 
 .mm-wrapper_opening .mm-menu_position-right.mm-menu_opened~.mm-slideout {
-  -webkit-transform: translate(-300px, 0);
   transform: translate(-300px, 0);
-  -webkit-transform: translate3d(-300px, 0, 0);
   transform: translate3d(-300px, 0, 0);
 }
 
@@ -1885,7 +1870,6 @@ header.horizontal-header .main-menu .menu .dropdown .submenu {
   min-width: 140px;
   max-width: 300px;
   background: #efefef;
-  -webkit-box-shadow: inset 0 0 10px 3px rgba(0, 0, 0, .03);
   box-shadow: inset 0 0 10px 3px rgba(0, 0, 0, .03);
   border-color: #e3e3e3;
   color: #a4a4a4;
@@ -1950,10 +1934,10 @@ header.horizontal-header .main-menu .menu .dropdown .submenu {
 }
 
 /* ===========================================
-// 05. SECTIONS
+//                SECTIONS
 =============================================*/
 
-/* ===== 05.1 GENERAL ===== */
+/* ===== GENERAL ===== */
 
 section {
   padding: 100px 0;
@@ -2026,7 +2010,6 @@ section.blue .section-title h4, section.blue .section-title p, section.blue .sec
 
 .section-title.aligncenter:after {
   left: 50%;
-  -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
 }
 
@@ -2036,7 +2019,6 @@ section.blue .section-title h4, section.blue .section-title p, section.blue .sec
   float: right;
   text-transform: uppercase;
   color: #B6ADAD;
-  -webkit-transition: .4s;
   transition: .4s;
 }
 
@@ -2081,7 +2063,6 @@ section .owl-carousel .owl-nav {
 section .owl-carousel .owl-nav button.owl-prev, section .owl-carousel .owl-nav button.owl-next {
   position: absolute;
   top: 50%;
-  -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
   background: #fff;
   border: 1px solid #efefef;
@@ -2090,7 +2071,6 @@ section .owl-carousel .owl-nav button.owl-prev, section .owl-carousel .owl-nav b
   height: 50px;
   border-radius: 50%;
   text-align: center;
-  -webkit-transition: .4s;
   transition: .4s;
 }
 
@@ -2146,7 +2126,7 @@ section .owl-carousel .owl-nav button.owl-prev.disabled i, section .owl-carousel
   opacity: .5;
 }
 
-/* ===== 05.2 ABOUT ===== */
+/* ===== ABOUT ===== */
 
 .brand-info {
   background-image: url(../images/about-card.jpg);
@@ -2198,7 +2178,7 @@ section.gray .brand-info .inner .content {
   color: #edcb9a;
 }
 
-/* ===== 05.3 SERVICES ===== */
+/* ===== SERVICES ===== */
 
 .services figcaption {
   position: absolute;
@@ -2298,7 +2278,7 @@ section.gray .brand-info .inner .content {
 }
 
 
-/* ===== 05.4 TESTIMONIALS ===== */
+/* ===== TESTIMONIALS ===== */
 
 .testimonials .testimonials-owl {
   padding-left: 100px;
@@ -2314,7 +2294,6 @@ section.gray .brand-info .inner .content {
   margin-top: 40px;
   padding: 30px;
   text-align: center;
-  -webkit-box-shadow: 0 12px 26px 0 rgba(178, 178, 178, .13);
   box-shadow: 0 12px 26px 0 rgba(178, 178, 178, .13);
   border-radius: 4px;
 }
@@ -2327,7 +2306,6 @@ section.gray .brand-info .inner .content {
   position: absolute;
   left: 50%;
   top: 0;
-  -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
 
@@ -2364,7 +2342,7 @@ section.gray .brand-info .inner .content {
   color: #ffb600;
 }
 
-/* ===== 05.6 VIDEO ===== */
+/* ===== VIDEO ===== */
 
 .video .inner {
   padding: 100px 0;
@@ -2411,35 +2389,32 @@ section.gray .brand-info .inner .content {
 
 .video .video-popup a:hover {
   opacity: 1;
-  -webkit-transform: scale(1.2, 1.2);
   transform: scale(1.2, 1.2);
 }
 
 .video .video-popup a:hover:after {
-  -webkit-transition: all 0.8s ease-out;
   transition: all 0.8s ease-out;
-  -webkit-transform: scale(1.8, 1.8);
   transform: scale(1.8, 1.8);
   opacity: 0;
   background: white;
 }
 
-/* ===== 05.7 CONTACT  ===== */
+/* ===== CONTACT  ===== */
 
-.contact-v2 .contact-details {
+.contact .contact-details {
   list-style: none;
 }
 
-.contact-v2 .contact-details li {
+.contact .contact-details li {
   margin-top: 30px;
   text-transform: uppercase;
 }
 
-.contact-v2 .contact-details li:first-child {
+.contact .contact-details li:first-child {
   margin-top: 0;
 }
 
-.contact-v2 .contact-details li i {
+.contact .contact-details li i {
   width: 40px;
   height: 40px;
   border-radius: 50%;
@@ -2452,12 +2427,12 @@ section.gray .brand-info .inner .content {
   color: #c9c9c9;
 }
 
-.contact-v2 .form-control {
+.contact .form-control {
   height: 50px;
   background: #fff;
 }
 
-/* ===== 05.8 INFO  ===== */
+/* ===== INFO  ===== */
 
 .info-branding {
   position: relative;
@@ -2562,7 +2537,7 @@ section.dark .countup-box .number, section.dark .countup-box .text {
   color: #a4a4a4;
 }
 
-/* ===== 05.9 GALLERY  ===== */
+/* =====  GALLERY  ===== */
 
 .gallery .gallery-owl .owl-item img {
   border-radius: 4px;
@@ -2585,7 +2560,7 @@ section.dark .countup-box .number, section.dark .countup-box .text {
 }
 
 /* ===========================================
-// 06. FOOTER
+//                 FOOTER
 =============================================*/
 
 footer {
@@ -2716,10 +2691,10 @@ footer .subfooter .social-media a i {
 }
 
 /* ===========================================
-// 07. BOOKING FORMS
+//              BOOKING FORMS
 =============================================*/
 
-/* ===== 07.1 GENERAL ===== */
+/* ===== GENERAL ===== */
 
 /* Datepicker */
 
@@ -2731,7 +2706,6 @@ footer .subfooter .social-media a i {
   padding: 10px;
   margin-top: 15px;
   border: 1px solid #efefef;
-  -webkit-box-shadow: 0 12px 26px 0 rgba(178, 178, 178, .13);
   box-shadow: 0 12px 26px 0 rgba(178, 178, 178, .13);
   border-radius: 2px;
 }
@@ -2821,7 +2795,6 @@ footer .subfooter .social-media a i {
   opacity: 0;
   background: #fff;
   border: 1px solid #efefef;
-  -webkit-box-shadow: 0 12px 26px 0 rgba(178, 178, 178, .13);
   box-shadow: 0 12px 26px 0 rgba(178, 178, 178, .13);
   border-radius: 2px;
   z-index: 99;
@@ -2924,7 +2897,6 @@ footer .subfooter .social-media a i {
   color: #fff;
   line-height: 22px;
   text-align: center;
-  -webkit-transition: .5s;
   transition: .5s;
   cursor: pointer;
   visibility: hidden;
@@ -2987,14 +2959,13 @@ footer .subfooter .social-media a i {
   padding: 0 10px;
   font-size: 14px;
   line-height: 20px;
-  -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
   word-wrap: break-word;
   word-break: break-all;
   white-space: normal;
 }
 
-/* ===== 07.2 HORIZONTAL BOOKING FORM ===== */
+/* ===== HORIZONTAL BOOKING FORM ===== */
 
 .horizontal-booking-form {
   position: absolute;
@@ -3034,7 +3005,7 @@ footer .subfooter .social-media a i {
   width: 100%;
 }
 
-/* ===== 07.3 VERTICAL BOOKING FORM ===== */
+/* ===== VERTICAL BOOKING FORM ===== */
 
 .vertical-booking-form {
   position: relative;
@@ -3120,10 +3091,10 @@ footer .subfooter .social-media a i {
 }
 
 /* ===========================================
-// 08. WIDGETS
+//                 WIDGETS
 =============================================*/
 
-/* ===== 08.1 GENERAL ===== */
+/* ===== GENERAL ===== */
 
 .sidebar {
   padding-left: 10px;
@@ -3170,7 +3141,7 @@ footer .subfooter .social-media a i {
   border-radius: 0;
 }
 
-/* ===== 08.2 SEARCH ===== */
+/* ===== SEARCH ===== */
 
 .sidebar .widget .search {
   height: 40px;
@@ -3215,7 +3186,7 @@ footer .subfooter .social-media a i {
   width: 1px;
 }
 
-/* ===== 08.3 CATEGORIES ===== */
+/* ===== CATEGORIES ===== */
 
 .sidebar .widget .categories li {
   border-bottom: 1px dashed #efefef;
@@ -3233,7 +3204,7 @@ footer .subfooter .social-media a i {
   font-size: 14px;
 }
 
-/* ===== 08.4 LATEST POSTS ===== */
+/* ===== LATEST POSTS ===== */
 
 .sidebar .widget .latest-posts .latest-post-item {
   padding: 10px 0px;
@@ -3272,7 +3243,7 @@ footer .subfooter .social-media a i {
   color: #d4ae34;
 }
 
-/* ===== 08.5 TAGS ===== */
+/* ===== TAGS ===== */
 
 .sidebar .widget .tagcloud a {
   display: inline-block;
@@ -3290,7 +3261,7 @@ footer .subfooter .social-media a i {
   text-transform: uppercase;
 }
 
-/* ===== 08.6 HELP ===== */
+/* ===== HELP ===== */
 
 .sidebar .widget.widget-help:before {
   content: "\f1cd";
@@ -3300,7 +3271,6 @@ footer .subfooter .social-media a i {
   position: absolute;
   left: 50%;
   top: 50%;
-  -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   z-index: -1;
   opacity: .5;
@@ -3315,9 +3285,9 @@ footer .subfooter .social-media a i {
 
 .sidebar .widget.widget-help .phone a, .sidebar .widget.widget-help .email a {
   color: #a4a4a4;
-} */
+}
 
-/* ===== 08.7 PRODUCTS ===== */
+/* ===== PRODUCTS ===== */
 
 .widget .products .product-item {
   padding: 10px 0;
@@ -3352,10 +3322,10 @@ footer .subfooter .social-media a i {
 }
 
 /* ===========================================
-// 09. ROOMS
+//                  ROOMS
 =============================================*/
 
-/* ===== 09.1 ROOMS LIST ===== */
+/* ===== ROOMS LIST ===== */
 
 .room-list-item {
   border-radius: 2px;
@@ -3407,7 +3377,6 @@ footer .subfooter .social-media a i {
   border: 5px double rgba(255, 255, 255, 0.5);
   z-index: 999;
   border-right: none;
-  /* -webkit-transition: 1s; */
   transition: 1s;
 }
 
@@ -3476,7 +3445,6 @@ footer .subfooter .social-media a i {
   color: #afafaf;
   border-radius: 1px;
   font-size: 11px;
-  -webkit-transition: .5s;
   transition: .5s;
 }
 
@@ -3492,7 +3460,6 @@ footer .subfooter .social-media a i {
   color: #afafaf;
   border-radius: 1px;
   font-size: 12px;
-  -webkit-transition: .5s;
   transition: .5s;
 }
 
@@ -3501,7 +3468,7 @@ footer .subfooter .social-media a i {
   background: #e3e3e3;
 }
 
-/* ===== 09.2 ROOMS GRID ===== */
+/* ===== ROOMS GRID ===== */
 
 .room-grid-item {
   background: #fff;
@@ -3579,13 +3546,11 @@ footer .subfooter .social-media a i {
   border-bottom: none;
   font-size: 14px;
   text-align: center;
-  -webkit-transition: .5s;
   transition: .5s;
   display: block;
 }
 
 .room-grid-item .room-services i:hover {
-  -webkit-box-shadow: 0px 5px 40px 0px rgba(0, 0, 0, 0.1);
   box-shadow: 0px 5px 40px 0px rgba(0, 0, 0, 0.1);
   cursor: pointer;
   opacity: 1;
@@ -3602,7 +3567,6 @@ footer .subfooter .social-media a i {
   border: 5px double rgba(255, 255, 255, 0.5);
   z-index: 999;
   border-bottom: none;
-  -webkit-transition: 1s;
   transition: 1s;
 }
 
@@ -3620,116 +3584,7 @@ footer .subfooter .social-media a i {
   margin-bottom: 30px;
 }
 
-/* ===== 09.3 ROOMS BLOCK ===== */
-
-.room-block-item {
-  width: 100%;
-  border-radius: 2px;
-  float: left;
-  margin-bottom: 26px;
-  position: relative;
-  border: 1px solid #efefef;
-  top: 0px;
-  -webkit-transition: top .1s ease-out;
-  transition: top .1s ease-out;
-}
-
-.room-block-item figure a:before {
-  display: block;
-  content: '';
-  position: absolute;
-  top: 10px;
-  right: 0px;
-  bottom: 10px;
-  left: 10px;
-  border: 4px double rgba(255, 255, 255, 0.5);
-  z-index: 999;
-  border-right: none;
-  -webkit-transition: 1s;
-  transition: 1s;
-}
-
-.room-block-item .room-info {
-  padding: 15px 0;
-}
-
-.room-block-item .room-info .room-title {
-  margin-bottom: 5px;
-}
-
-.room-block-item .room-info .room-title a {
-  font-size: 25px;
-  font-weight: 500;
-  color: #d7d8d9;
-  text-transform: uppercase;
-}
-
-.room-block-item .room-info .room-rates {
-  text-transform: uppercase;
-}
-
-.room-block-item .room-info .room-rates i {
-  font-size: 13px;
-  color: #ffb600;
-}
-
-.room-block-item .room-info .room-rates a {
-  margin-left: 5px;
-  font-size: 12px;
-}
-
-.room-block-item .room-price .price {
-  display: block;
-  font-size: 20px;
-  font-weight: 400;
-  color: #edcb9a;
-}
-
-.room-block-item .room-price .price small {
-  font-size: 15px;
-  font-weight: 400;
-}
-
-.room-block-item .room-price .total {
-  display: block;
-  margin: 10px 0;
-}
-
-.room-block-item .room-price a {
-  margin-top: 40px;
-  padding: 5px 20px;
-  border-radius: 2px;
-  text-transform: uppercase;
-  font-size: 13px;
-  color: #fff;
-  font-weight: 400;
-}
-
-.room-block-item .room-services {
-  position: relative;
-  margin-top: 30px;
-}
-
-.room-block-item .room-services i {
-  width: 30px;
-  height: 30px;
-  border: 1px solid #e3e3e3;
-  margin-right: 10px;
-  text-align: center;
-  line-height: 30px;
-  color: #afafaf;
-  border-radius: 1px;
-  font-size: 11px;
-  -webkit-transition: .5s;
-  transition: .5s;
-}
-
-.room-block-item .room-services i:hover {
-  cursor: pointer;
-  background: #e3e3e3;
-}
-
-/* ===== 09.4 ROOM DETAILS ===== */
+/* ===== ROOM DETAILS ===== */
 
 .room-details-price {
   display: inline-block;
@@ -3944,10 +3799,10 @@ footer .subfooter .social-media a i {
 }
 
 /* ===========================================
-// 10. BLOG
+//                 BLOG
 =============================================*/
 
-/* ===== 10.1 BLOG ARCHIVE ===== */
+/* ===== BLOG ARCHIVE ===== */
 
 .blog-posts .news-grid-item {
   margin-bottom: 30px;
@@ -4062,7 +3917,7 @@ footer .subfooter .social-media a i {
   margin-right: 3px;
 }
 
-/* ===== 10.2 BLOG POST ===== */
+/* ===== BLOG POST ===== */
 
 .blog-post-cover {
   text-align: center;
@@ -4242,13 +4097,11 @@ p.dropcap:first-letter {
   margin-bottom: 20px;
   height: 60px;
   width: 60px;
-  -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
   border-radius: 50%;
 }
 
 .blog-post-info img:hover {
-  -webkit-filter: grayscale(0%);
   filter: grayscale(0%);
 }
 
@@ -4320,7 +4173,6 @@ blockquote:after {
   margin: 0 5px 5px 0;
   padding: 0px 12px;
   text-transform: uppercase;
-  -webkit-transition: all ease 0.30s;
   transition: all ease 0.30s;
 }
 
@@ -4513,10 +4365,10 @@ blockquote:after {
 }
 
 /* ===========================================
-// 11. PAGES
+//                 PAGES
 =============================================*/
 
-/* ===== 11.1 PAGES GENERAL ===== */
+/* ===== PAGES GENERAL ===== */
 
 .page-title {
   background-repeat: no-repeat;
@@ -4583,7 +4435,7 @@ blockquote:after {
   color: #fff;
 }
 
-/* ===== 11.2 CONTACT ===== */
+/* ===== CONTACT ===== */
 
 .google-map-full {
   position: relative;
@@ -4779,7 +4631,7 @@ blockquote:after {
   margin-bottom: 0px;
 }
 
-/* ===== 11.3 GALLERY ===== */
+/* ===== GALLERY ===== */
 
 .gallery-filters {
   margin-bottom: 80px;
@@ -4836,7 +4688,7 @@ blockquote:after {
   border-bottom-right-radius: 4px;
 }
 
-/* ===== 11.4 RESTAURANT ===== */
+/* ===== RESTAURANT ===== */
 
 .restaurant-menu-item {
   border-right: 1px dashed #e3e3e3;
@@ -4897,7 +4749,7 @@ section.restaurant .restaurant-menu-item .title span.price {
   z-index: 2;
 }
 
-/* ===== 11.5 EVENTS ===== */
+/* ===== EVENTS ===== */
 
 .event-item {
   border: 1px solid #efefef;
@@ -4979,7 +4831,7 @@ section.restaurant .restaurant-menu-item .title span.price {
   color: #B6ADAD;
 }
 
-/* ===== 11.6 OFFERS ===== */
+/* ===== OFFERS ===== */
 
 .offer-item {
   position: relative;
@@ -5079,7 +4931,7 @@ section.restaurant .restaurant-menu-item .title span.price {
 }
 
 
-/* ===== 11.9 STAFF ===== */
+/* ===== STAFF ===== */
 
 .staff-item {
   background: #fff;
