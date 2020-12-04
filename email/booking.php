@@ -8,7 +8,7 @@ if($_POST)
     #####################################################################################################
 
     // Site Settings
-    $site_title          = "Hotel Himara";
+    $site_title          = "Hotel Quite Luxury";
     $site_url            = "https://eagle-themes.com/templates/himara";
     $facebook_link       = "https://www.facebook.com/";
     $twitter_link        = "https://twitter.com/";
